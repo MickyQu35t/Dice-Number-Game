@@ -60,7 +60,7 @@ function display(){
 document.getElementById('roll').style.display = "none"
 document.getElementById('party').style.display = "none"
 // Add a listerener
-guessBtn.addEventListener("click", compare);
+guessBtn.addEventListener("mousedown", compare);
 
 function compare(e){
   let guess = parseInt(userNum.value);
